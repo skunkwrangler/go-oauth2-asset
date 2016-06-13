@@ -1,0 +1,61 @@
+{
+	"ImportPath": "oauth2_go_asset",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v70",
+	"Deps": [
+		{
+			"ImportPath": "github.com/cloudfoundry-community/go-cfenv",
+			"Comment": "v1.14.0",
+			"Rev": "96ad7376813bfd13c95af69ca5b4ef5725f6b335"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/mapstructure",
+			"Rev": "d2dd0262208475919e1a362f675cfc0e7c10e905"
+		},
+		{
+			"ImportPath": "github.com/twinj/uuid",
+			"Rev": "89173bcdda19db0eb88aef1e1cb1cb2505561d31"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "6acef71eb69611914f7a30939ea9f6e194c78172"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "c406a4cc4ba462e5dc2f16225c5bd9488f9cbe10"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2/internal",
+			"Rev": "c406a4cc4ba462e5dc2f16225c5bd9488f9cbe10"
+		},
+		{
+			"ImportPath": "gopkg.in/bsm/ratelimit.v1",
+			"Rev": "db14e161995a5177acef654cb0dd785e8ee8bc22"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v3",
+			"Comment": "v3.6.2",
+			"Rev": "5183f8dcde9737db7583dbfa9881800dba26e3fa"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v3/internal",
+			"Comment": "v3.6.2",
+			"Rev": "5183f8dcde9737db7583dbfa9881800dba26e3fa"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v3/internal/consistenthash",
+			"Comment": "v3.6.2",
+			"Rev": "5183f8dcde9737db7583dbfa9881800dba26e3fa"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v3/internal/hashtag",
+			"Comment": "v3.6.2",
+			"Rev": "5183f8dcde9737db7583dbfa9881800dba26e3fa"
+		},
+		{
+			"ImportPath": "gopkg.in/redis.v3/internal/pool",
+			"Comment": "v3.6.2",
+			"Rev": "5183f8dcde9737db7583dbfa9881800dba26e3fa"
+		}
+	]
+}

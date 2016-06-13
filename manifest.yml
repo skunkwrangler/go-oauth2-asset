@@ -1,0 +1,12 @@
+---
+applications:
+  - name: jk-go-uaa-redis-asset
+    buildpack: https://github.com/cloudfoundry/go-buildpack
+    memory: 64M
+services:
+  - YOUR_REDIS_SERVICE_PLEASE_CHANGE
+  - YOUR_UAA_SERVICE_PLEASE_CHANGE
+  - YOUR_ASSET_SERVICE_PLEASE_CHANGE
+env:
+  CLIENT_ID: YOUR_UAA_CLIENT_PLEASE_CHANGE
+  CLIENT_SECRET: YOUR_UAA_CLIENT_SECRET_PLEASE_CHANGE
